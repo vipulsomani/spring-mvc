@@ -1,7 +1,14 @@
-<%@ taglib uri="http://java.sun.com/jsp/jstl/core " prefix="c" %>
+
 <html>
-<head>
+<head><title>Customer Confirmation</title>
 </head>
 <body>
-hi ia mhere</body>
+	The Customer is confirmed: ${customer.firstName} ${customer.lastName}
+	<br><br>
+	FreePasses: ${customer.freePasses}
+	<br>
+	Postal Code: ${customer.postalCode}
+	<br>
+	
+</body>
 </html>
