@@ -9,6 +9,9 @@
 	<br>
 	Postal Code: ${customer.postalCode}
 	<br>
+	Course Code: ${customer.courseCode}
+	<br>
+	
 	
 </body>
 </html>
